@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Caveat&family=Dancing+Script&family=Fascinate&family=League+Gothic&family=Secular+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+    font-family: 'Advent Pro' , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+   list-style-type: none;
+}
+h2 {
+ text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3em; 
+ }
+ a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+ }
+ /* **************************** NAVBAR *************************************** */ 
+nav {
+  overflow: hidden;
+  background-color: #ffffff91;
+  position: absolute;
+   width: 100%;
+   opacity: 50000; 
+ }
+ header li {
+ float: right;
+ font-size: 3.2em;
+ }
+ header li a {
+   text-decoration: none;
+   display: block;
+   text-align: center;
+   padding: 18px 16px;
+ }
+ #logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+ }
+/* ********************************************image PRINCIPALE **************************** */
+#ImagePrincipale {
+  padding-top: 30px;
+  background: url(media/image-principale.JPG.webp) no-repeat fixed 50% 50%;
+  background-size: cover;
+  background-position-x: center;
+  height: 799px;
+}
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 250px;
+    text-shadow: 1px 3px 2px black;
+  }
+
+ 
+#premierTrait {
+ height: 5px;
+ width: 25%;
+ margin: -3px auto;
+ background-color: #0f0f0b;
+}
+h3 {
+ text-align: center;
+ color: rgb(216, 11, 11);
+ font-size: 3em;
+ text-shadow: 1px 3px 2px black;
+ font-family: 'Fascinate', cursive;
+}
+h5 {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  text-shadow: 1px 3px 2px rgb(54, 7, 7);
+  font-family: 'Caveat', cursive;
+ }
+ h1 {
+  color: #00eeff;
+}
+h5{
+  color-scheme: rgb(255, 0, 0);
+  text-align: center;
+}
+/*****************PRESENTATION**************************/
+#presentation {
+ background-color: #004cff;
+ padding: 10px 0px 100px 0;
+}
+#textIntro {
+ padding: 0px 20%;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding: 30px 10%;
+ color: rgb(102, 113, 0);
+ font-family: 'League Gothic', sans-serif;
+
+
+}
+#prestation {
+display: flex;
+flex-wrap: initial;
+justify-content: space-between;
+padding: 30px 10%;
+}
+.img {
+  width: 220px;
+  height: 320px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 80px;
+}
+.img h4 {
+  font-family: 'Dancing script, cursive;';
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+font-weight: 300;
+}
+.img {
+  border-radius: 10px;
+ box-shadow: 3px 4px 5px 4px rgba rgb(0, 0, 3)
+}
+.img img:hover {
+  opacity: 0,5;
+  transform: scale(1.05);
+  transition: 0,8s ease-in-out;
+}
+/*******************Football*******************/
+#Football {
+  height: 140px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+#Football h2 {
+  padding-top: 60px;
+}
+#messi1 {
+  background: url(media/7\ bo.jpg);
+}
+#pelé {
+  background: url(media/3\ cdm.jpg);
+}
+#M {
+  background: url(media/222m.jpeg) top;
+}
+#messi2 {
+  background: url(media/dsu$.jpg);
+}
+#cr7 {
+  background: url(media/sui.jpg);
+}
+#kb9 {
+  background: url(media/hihihihh.jpg);
+}
+#Football li {
+  margin: 65px 100px  100px;
+  height: 456px;
+  width: 55%;
+  max-width: 770px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px black;
+}
+#Football p {
+  height: 65px;
+width: 225px;
+background-color: #00ff7b;
+float: right;
+margin: 50px -180px 0 0;
+font-size: 1.5em;
+text-align: center;
+padding-top: 15px;
+box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+#Football #pelé, #Football #messi2, #Football #kb9 {
+  float: right;
+}
+#pelé p, #messi2 p, #Kb9 p {
+  float: left;
+  background-color: cyan;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+  font-family: 'Dancing Script', cursive;
+}
+#messi1, #M, s#cr7 p {
+  font-family: 'Dancing Script', cursive;
+}
+h2 {
+  font-family: 'Secular One', sans-serif;
+}
